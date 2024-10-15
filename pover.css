@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    display: flex;
+    align-items: center; 
+    justify-content: center; 
+   min-height: 100vh;
+   padding: 0 10px;
+   color: white;
+}
+
+body::before {
+content: "";
+position: absolute;
+width: 100%;
+height: 100%;
+background: url(https://img.freepik.com/free-vector/abstract-background-design-vector_677411-4228.jpg?w=1060&t=st=1726134532~exp=1726135132~hmac=1ff20995ba753cdd7a9a6dd253a3b6571960210f92289dae718bdc699000cff2);
+background-position: center;
+background-size: cover;
+z-index: -1;
+}
+
+.wrapper {
+    width: 490px;
+    border-radius: 8px;
+    padding: 30;
+text-align: center;
+border: 1px solid #ffffff80;
+backdrop-filter: blur(8px);
+}
+
+form {
+    display: l;
+    flex-direction: column;
+
+}
+
+h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: beige;
+}
+
+.input-field {
+    position: relative;
+    border-bottom: 2px solid #ccc;
+    margin: 5px 0;
+}
+
+.input-field label {
+position: absolute;
+color: azure;
+top: 50%;
+left: 2%;
+transform: translateY(-50%);
+font-size: 17px;
+position: 0.30s ease;
+}
+
+.input-field input {
+width: 100%;
+height: 40px;
+color: bisque;
+background: transparent;
+
+}
+
+.wrapper {
+width: 490px;
+border-radius: 8px;
+padding: 30px;
+text-align: center ;
+border: 1px solid #ffffff80;
+backdrop-filter: blur(8px);
+}
+
+form {
+display: flex;
+flex-direction: column;
+}
+
+button {
+    background: #fff;
+    color: black;
+    font-weight: 600;
+    padding: 8px 13px;
+    cursor: pointer;
+    border-radius: 3px;
+    font-size: 16px;
+    border: 2px solid transparent;
+    transition: 0.3s ease;
+}
+
+
